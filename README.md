@@ -26,7 +26,17 @@ git clone https://github.com/WeZZard/antigravity-notebooklm.git \
 
 ## Quick Usage
 
-### 1. Interactive Workbench (`/notebooklm`)
+### 1. Direct Chat Prompt
+
+Ask directly in chat without opening the workbench:
+
+```text
+Use NotebookLM to extract the transcript from https://www.youtube.com/watch?v=TtOoLanFzGw and generate an Infographic.
+```
+
+The agent handles notebook setup, source ingestion, right-pane preview, and local download automatically.
+
+### 2. Interactive Workbench (`/notebooklm`)
 
 Type `/notebooklm` to open the 2-step Studio Workbench — pick deliverables and output language, attach sources, and launch.
 
@@ -41,16 +51,6 @@ Type `/notebooklm` to open the 2-step Studio Workbench — pick deliverables and
 3. **Result — Right-pane browser preview and local download**
 
    ![Generated Infographic Preview in Built-in Browser](./assets/screenshots/infographic-browser-preview.png)
-
-### 2. Direct Chat Prompt
-
-Ask directly in chat without opening the workbench:
-
-```text
-Use NotebookLM to extract the transcript from https://www.youtube.com/watch?v=TtOoLanFzGw and generate an Infographic.
-```
-
-The agent handles notebook setup, source ingestion, right-pane preview, and local download automatically.
 
 ## Capabilities
 
