@@ -7,14 +7,14 @@ An Antigravity plugin for [Google NotebookLM](https://notebook.google.com) expos
 ### Option 1 — Antigravity CLI
 
 ```bash
-git clone https://github.com/WeZZard/AntigravityNotebookLM.git
-agy plugin install ./AntigravityNotebookLM
+git clone https://github.com/WeZZard/antigravity-notebooklm.git
+agy plugin install ./antigravity-notebooklm
 ```
 
 ### Option 2 — Direct Clone into Plugins Directory
 
 ```bash
-git clone https://github.com/WeZZard/AntigravityNotebookLM.git \
+git clone https://github.com/WeZZard/antigravity-notebooklm.git \
   ~/.gemini/config/plugins/antigravity-notebooklm
 ```
 
