@@ -29,6 +29,20 @@ git clone https://github.com/WeZZard/antigravity-notebooklm.git \
 - Run `/notebooklm` to launch the interactive 2-step Studio Workbench, pick deliverables and output language, attach sources, and click **Launch**.
 - Or prompt directly in chat (for example, extract a YouTube transcript, generate a Slide Deck, Infographic, Audio Overview, or Quiz, or ask citation-verified questions). Generated artifacts stay open in the built-in right-pane browser and download automatically to `./notebooklm-outputs/`.
 
+## Screenshots
+
+1. **Step 1 — Pick deliverables and output language**
+
+   ![NotebookLM 2-Step Workbench — Step 1: Choose Deliverables](./assets/screenshots/workbench-step1-deliverables.png)
+
+2. **Step 2 — Add data sources and launch**
+
+   ![NotebookLM 2-Step Workbench — Step 2: Add Data Sources](./assets/screenshots/workbench-step2-sources.png)
+
+3. **Result — Right-pane browser preview & local download**
+
+   ![Generated Infographic Preview in Built-in Browser](./assets/screenshots/infographic-browser-preview.png)
+
 ## Capabilities
 
 - **Sources**: YouTube and web URLs, local files, pasted text, Google Drive, Play Books, Textbooks, and Web/Drive research (`Fast Research` / `Deep Research`).
