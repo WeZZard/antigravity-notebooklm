@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none">
+  <defs>
+    <linearGradient id="nb-bg" x1="16" y1="14" x2="112" y2="114" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="55%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#0D9488" />
+    </linearGradient>
+    <linearGradient id="nb-spark" x1="70" y1="30" x2="102" y2="62" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FEF08A" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+  <!-- ~10% empty margin baked in around 128x128 canvas -->
+  <rect x="16" y="14" width="96" height="100" rx="18" fill="url(#nb-bg)" stroke="#E2E8F0" stroke-opacity="0.35" stroke-width="2" />
+  <!-- Notebook spine -->
+  <rect x="26" y="24" width="12" height="80" rx="6" fill="#0F172A" fill-opacity="0.35" />
+  <circle cx="32" cy="40" r="2.8" fill="#F8FAFC" />
+  <circle cx="32" cy="64" r="2.8" fill="#F8FAFC" />
+  <circle cx="32" cy="88" r="2.8" fill="#F8FAFC" />
+  <!-- Content lines inside notebook -->
+  <rect x="46" y="42" width="26" height="6" rx="3" fill="#F8FAFC" fill-opacity="0.95" />
+  <rect x="46" y="57" width="48" height="6" rx="3" fill="#F8FAFC" fill-opacity="0.85" />
+  <rect x="46" y="72" width="40" height="6" rx="3" fill="#F8FAFC" fill-opacity="0.75" />
+  <rect x="46" y="87" width="32" height="6" rx="3" fill="#BAE6FD" fill-opacity="0.9" />
+  <!-- Gemini 4-point sparkle -->
+  <path d="M88 26 L92 38 L104 42 L92 46 L88 58 L84 46 L72 42 L84 38 Z" fill="url(#nb-spark)" stroke="#0F172A" stroke-opacity="0.25" stroke-width="1.5" stroke-linejoin="round" />
+</svg>

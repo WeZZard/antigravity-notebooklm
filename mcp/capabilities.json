@@ -1,0 +1,123 @@
+{
+  "calibratedAt": "2026-11-21",
+  "frontendBuild": "boq_labs-tailwind-frontend_20261119.18_p0",
+  "canonicalUrl": "https://notebook.google.com/",
+  "maxSources": 600,
+  "sourceTypes": [
+    {
+      "id": "Websites",
+      "label": "Websites",
+      "tabLabel": "YouTube / URLs",
+      "inputKind": "multiline",
+      "placeholder": "Paste YouTube or website URLs (one per line or space-separated)...",
+      "hint": "NotebookLM extracts public YouTube transcripts and visible web page text."
+    },
+    {
+      "id": "Copied text",
+      "label": "Copied text",
+      "tabLabel": "Text",
+      "inputKind": "multiline",
+      "placeholder": "Paste raw notes, markdown, or copied text...",
+      "hint": "Ingested directly as a note-backed source in NotebookLM."
+    },
+    {
+      "id": "Upload files",
+      "label": "Upload files",
+      "tabLabel": "Local Files",
+      "inputKind": "paths",
+      "placeholder": "Enter local file path(s), e.g. ./notes.md or ./paper.pdf...",
+      "hint": "Text/Markdown auto-stages via Copied text if sandbox upload is restricted; binaries prompt drag-and-drop."
+    },
+    {
+      "id": "Drive",
+      "label": "Drive",
+      "tabLabel": "Drive",
+      "inputKind": "reference",
+      "placeholder": "Google Drive document or folder name / URL...",
+      "hint": "Cites documents directly from your connected Google Drive."
+    },
+    {
+      "id": "Play Books",
+      "label": "Play Books",
+      "tabLabel": "Play Books",
+      "inputKind": "reference",
+      "placeholder": "Book title from your Google Play Books library...",
+      "hint": "Imports supported books from your Play Books library."
+    },
+    {
+      "id": "Textbooks",
+      "label": "Textbooks",
+      "tabLabel": "Textbooks",
+      "inputKind": "reference",
+      "placeholder": "Textbook title, topic, level, or country...",
+      "hint": "Selects from NotebookLM curated Textbooks across 5 academic categories."
+    }
+  ],
+  "research": {
+    "scopes": ["Web", "Drive"],
+    "modes": ["Fast Research", "Deep Research"]
+  },
+  "outputLanguages": [
+    "Auto (Chat language)",
+    "Account Default",
+    "English",
+    "Simplified Chinese",
+    "Traditional Chinese",
+    "Japanese",
+    "Korean",
+    "Spanish",
+    "French",
+    "German"
+  ],
+  "studioTiles": [
+    {
+      "id": "Audio Overview",
+      "artifactType": "1",
+      "tag": "Podcast",
+      "desc": "Two-host AI podcast dialogue · supports Play & Interactive mode"
+    },
+    {
+      "id": "Slide Deck",
+      "artifactType": "8",
+      "tag": "Slides",
+      "desc": "Presentation deck structured from active sources"
+    },
+    {
+      "id": "Video Overview",
+      "artifactType": "3",
+      "tag": "Video",
+      "desc": "Narrated visual video summary · supports inline Play"
+    },
+    {
+      "id": "Mind Map",
+      "artifactType": "mindmap_app",
+      "tag": "Interactive",
+      "desc": "Topic hierarchy modal (language, sources, topic focus) -> Studio App"
+    },
+    {
+      "id": "Reports",
+      "artifactType": "2",
+      "tag": "New!",
+      "desc": "Written deliverables: Study Guide, Timeline, FAQ, or custom report",
+      "subOptions": ["Study Guide", "Timeline", "FAQ"]
+    },
+    {
+      "id": "Flashcards",
+      "artifactType": "flashcards",
+      "tag": "Study",
+      "desc": "Interactive active-recall cards derived from sources"
+    },
+    {
+      "id": "Quiz",
+      "artifactType": "quiz",
+      "tag": "Test",
+      "desc": "Interactive knowledge-check quiz grounded in sources"
+    },
+    {
+      "id": "Infographic",
+      "artifactType": "7",
+      "tag": "Visual",
+      "desc": "Visual summary viewed with Zoom in/out & Download controls"
+    }
+  ]
+}

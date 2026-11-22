@@ -1,0 +1,17 @@
+{
+  "name": "antigravity-notebooklm",
+  "displayName": "Google NotebookLM",
+  "version": "0.8.0",
+  "description": "Use Google NotebookLM (notebook.google.com) through a single unified notebooklm skill with an adaptive 2-step MCP App Workbench (1. What to create + Output language -> 2. Data sources), built-in right-pane browser preview, and automatic local download.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Extract the full transcript and key takeaways from this YouTube video using NotebookLM",
+    "Show me all NotebookLM Studio deliverables I can create from these materials and let me pick",
+    "Synthesize these sources in NotebookLM with verified inline citations and generate an interactive Quiz"
+  ],
+  "author": {
+    "name": "WeZZard"
+  },
+  "homepage": "https://notebook.google.com",
+  "repository": "https://github.com/WeZZard/AntigravityNotebookLM"
+}
